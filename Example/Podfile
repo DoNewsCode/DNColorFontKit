@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DNColorFontKit_Example' do
+  pod 'DNColorFontKit', :path => '../'
+
+  target 'DNColorFontKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
