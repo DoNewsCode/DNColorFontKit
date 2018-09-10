@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0904E594708FF212DDC8213538407840 /* Pods-DNColorFontKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E72B008E36B89F92B6BC6E8294263D9 /* Pods-DNColorFontKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B81B86E5A4F8D81C664906280C24BBE /* TGColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E402376560EB2A8C6545CCB21A370D7 /* TGColorManager.m */; };
+		3CAEB8DF178D91E4803E94CADA953380 /* DNColorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F237CD9D31AD5C055A50B99B39EC3729 /* DNColorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		477C5E83C846C2564F7963B31343CEA5 /* Pods-DNColorFontKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 983249A96A11A982B7484980D330931F /* Pods-DNColorFontKit_Tests-dummy.m */; };
+		60B5708C918358BCCB9493D740DDD8D4 /* DNColorFontKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 772CAD451AD15474052CFB2A4CA0E466 /* DNColorFontKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		743CD8A8D459F79B3CFACCDE3057AC02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		820D6FBA0DB6AE1A5CBC07E29AFB3218 /* TGColorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF5D687644619FE5F6D4BE5BD90D67C /* TGColorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F42C2A03D257ED8744345A828C3F70 /* DNColorFontKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5623666CB024F2400101D8FDFFAAEA3 /* DNColorFontKit-dummy.m */; };
+		AE33364EA75D18490F7D28A4A037958F /* TGFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C70C5E79248BBC58E2C215DE60D695 /* TGFontManager.m */; };
+		B762DBE60CB333DDECC57EA5BDBDB64B /* TGFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFF1713B96D3416EBEE54B3FE007C2B /* TGFontManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA9A25C3B96C3D557B17B20D5EA06BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9F2C7C6C86CBC3C9E1784B659FD75AD /* DNColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E966BBBDB5C5097FC9FC87708E1F6F /* DNColorManager.m */; };
+		CC2E3F22288F20CE052F21A51C23542C /* Pods-DNColorFontKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D36079D560CBAFED2F8436F1BB9E3D39 /* Pods-DNColorFontKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1E8EC2E71300DB73B736BA0BC6B85C2 /* Pods-DNColorFontKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3ACFE16E010F878F762164761D5393 /* Pods-DNColorFontKit_Example-dummy.m */; };
+		FB2EBF4272E831115C1C952775FCFEF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B4DD4872055F96ACCA79B13999ACBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EDD62F7690FAE84CDFB7E2A69B1AED;
+			remoteInfo = DNColorFontKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CADBACEF25C2FEBC01A440F7FA249B /* Pods-DNColorFontKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNColorFontKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0372EA0D052D6B80A2F085E67C01C5AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F8271E8E48E3379F3BA7BA74229A7E /* Pods-DNColorFontKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNColorFontKit_Tests.modulemap"; sourceTree = "<group>"; };
+		1478F4EC9AC594A71B31CF532D1BFE25 /* DNColorFontKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNColorFontKit.xcconfig; sourceTree = "<group>"; };
+		30E966BBBDB5C5097FC9FC87708E1F6F /* DNColorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNColorManager.m; sourceTree = "<group>"; };
+		31F8697DC3EA8AA032001F6AA4C716BC /* Pods-DNColorFontKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNColorFontKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F3CC6B12ED7F394FE0EF8756D58B47F /* DNColorFontKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNColorFontKit.framework; path = DNColorFontKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		543F71D3977CFD6CA2E064A54BDC2C9B /* Pods-DNColorFontKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNColorFontKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58FB932A27A1E368E0929F201D971BC6 /* Pods_DNColorFontKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNColorFontKit_Tests.framework; path = "Pods-DNColorFontKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB48765BE93D5CB766284F9102337AC /* DNColorFontKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DNColorFontKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E402376560EB2A8C6545CCB21A370D7 /* TGColorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TGColorManager.m; sourceTree = "<group>"; };
+		7412582AC5D594754247AB8059052102 /* Pods-DNColorFontKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNColorFontKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		772CAD451AD15474052CFB2A4CA0E466 /* DNColorFontKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNColorFontKit-umbrella.h"; sourceTree = "<group>"; };
+		79C70C5E79248BBC58E2C215DE60D695 /* TGFontManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TGFontManager.m; sourceTree = "<group>"; };
+		8602F67E5537836CB9418C417BB8749C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8CFCA231A0A891BA2D53E2DEB3F49746 /* Pods-DNColorFontKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNColorFontKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E72B008E36B89F92B6BC6E8294263D9 /* Pods-DNColorFontKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNColorFontKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		923DE6BB1364E53A584870E141D77C22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93559BDFCD612AB37AFC3DBC2BFFE0E2 /* Pods-DNColorFontKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNColorFontKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		983249A96A11A982B7484980D330931F /* Pods-DNColorFontKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNColorFontKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D50BA119A907D0B08D7B31EEDD2A046 /* Pods_DNColorFontKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DNColorFontKit_Example.framework; path = "Pods-DNColorFontKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21FA0AA455562F4C6941D17EBAD821A /* Pods-DNColorFontKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNColorFontKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		B2BE372E86C96FA7CF75769B03F4029F /* Pods-DNColorFontKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNColorFontKit_Example.modulemap"; sourceTree = "<group>"; };
+		B5059B4D2D8941A0159B4694BB4B25EB /* Pods-DNColorFontKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNColorFontKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7EE54A8DB683C3B896A76349A9D7CED /* DNColorFontKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNColorFontKit-prefix.pch"; sourceTree = "<group>"; };
+		B9CF4A1F178D175F120B425D97806FEE /* DNColorFontKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNColorFontKit.modulemap; sourceTree = "<group>"; };
+		BE0D228DBF706CD0DE7B1868BB400F23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF1713B96D3416EBEE54B3FE007C2B /* TGFontManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TGFontManager.h; sourceTree = "<group>"; };
+		CFA383C297598FFEE77E3144E7353FBA /* Pods-DNColorFontKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNColorFontKit_Example-resources.sh"; sourceTree = "<group>"; };
+		D36079D560CBAFED2F8436F1BB9E3D39 /* Pods-DNColorFontKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNColorFontKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DC1E08F6E17B9EFCE963F1DF293F29DC /* Pods-DNColorFontKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNColorFontKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5623666CB024F2400101D8FDFFAAEA3 /* DNColorFontKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNColorFontKit-dummy.m"; sourceTree = "<group>"; };
+		E9ECA8EAC8A50223DE7F2367A1B9335F /* Pods-DNColorFontKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNColorFontKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EF3ACFE16E010F878F762164761D5393 /* Pods-DNColorFontKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNColorFontKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F237CD9D31AD5C055A50B99B39EC3729 /* DNColorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNColorManager.h; sourceTree = "<group>"; };
+		F4D8F3426685771D40EB8E95CC58D2C7 /* Pods-DNColorFontKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNColorFontKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCF5D687644619FE5F6D4BE5BD90D67C /* TGColorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TGColorManager.h; sourceTree = "<group>"; };
+		FEE2F3DC43BCC93DB0E101A16EC9C844 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		519AAF43A5FDCD1CDF4D6079519DB737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743CD8A8D459F79B3CFACCDE3057AC02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D750EB2B2D2D9204576BA56416221C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2EBF4272E831115C1C952775FCFEF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B10BC3E1E4E9912906568B05379266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA9A25C3B96C3D557B17B20D5EA06BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		319B32C580BDABA40504ECAB234D1D62 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9643C6540E4B8C29BD8F60BE94EA5F9C /* DNColorFontKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5995C415D5A1FC1AE10C684B72D96001 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF4A1F178D175F120B425D97806FEE /* DNColorFontKit.modulemap */,
+				1478F4EC9AC594A71B31CF532D1BFE25 /* DNColorFontKit.xcconfig */,
+				E5623666CB024F2400101D8FDFFAAEA3 /* DNColorFontKit-dummy.m */,
+				B7EE54A8DB683C3B896A76349A9D7CED /* DNColorFontKit-prefix.pch */,
+				772CAD451AD15474052CFB2A4CA0E466 /* DNColorFontKit-umbrella.h */,
+				FEE2F3DC43BCC93DB0E101A16EC9C844 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DNColorFontKit";
+			sourceTree = "<group>";
+		};
+		6A5FEB53921C08376DE06D26577285AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3CC6B12ED7F394FE0EF8756D58B47F /* DNColorFontKit.framework */,
+				9D50BA119A907D0B08D7B31EEDD2A046 /* Pods_DNColorFontKit_Example.framework */,
+				58FB932A27A1E368E0929F201D971BC6 /* Pods_DNColorFontKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71648C2A18C74F3C21501A1287745464 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AED0010F1B0624ECF59D261F647F72A5 /* Pods-DNColorFontKit_Example */,
+				F69E6ECFE26B1FB7D1CBD4FEAB164B71 /* Pods-DNColorFontKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				319B32C580BDABA40504ECAB234D1D62 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6A5FEB53921C08376DE06D26577285AA /* Products */,
+				71648C2A18C74F3C21501A1287745464 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9643C6540E4B8C29BD8F60BE94EA5F9C /* DNColorFontKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCA34A1839D588E7F7C13BA24ED0CF39 /* DNColor */,
+				BAAD9DBEE63227EC9D5910009081CCD4 /* Font */,
+				D58B3FCE9E5F66390796BF2700BA5EB9 /* Pod */,
+				5995C415D5A1FC1AE10C684B72D96001 /* Support Files */,
+				D270244B33BDE4315725CA8613696F18 /* TGBusColor */,
+			);
+			name = DNColorFontKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AED0010F1B0624ECF59D261F647F72A5 /* Pods-DNColorFontKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0372EA0D052D6B80A2F085E67C01C5AB /* Info.plist */,
+				B2BE372E86C96FA7CF75769B03F4029F /* Pods-DNColorFontKit_Example.modulemap */,
+				543F71D3977CFD6CA2E064A54BDC2C9B /* Pods-DNColorFontKit_Example-acknowledgements.markdown */,
+				00CADBACEF25C2FEBC01A440F7FA249B /* Pods-DNColorFontKit_Example-acknowledgements.plist */,
+				EF3ACFE16E010F878F762164761D5393 /* Pods-DNColorFontKit_Example-dummy.m */,
+				7412582AC5D594754247AB8059052102 /* Pods-DNColorFontKit_Example-frameworks.sh */,
+				CFA383C297598FFEE77E3144E7353FBA /* Pods-DNColorFontKit_Example-resources.sh */,
+				8E72B008E36B89F92B6BC6E8294263D9 /* Pods-DNColorFontKit_Example-umbrella.h */,
+				8CFCA231A0A891BA2D53E2DEB3F49746 /* Pods-DNColorFontKit_Example.debug.xcconfig */,
+				E9ECA8EAC8A50223DE7F2367A1B9335F /* Pods-DNColorFontKit_Example.release.xcconfig */,
+			);
+			name = "Pods-DNColorFontKit_Example";
+			path = "Target Support Files/Pods-DNColorFontKit_Example";
+			sourceTree = "<group>";
+		};
+		BAAD9DBEE63227EC9D5910009081CCD4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF1713B96D3416EBEE54B3FE007C2B /* TGFontManager.h */,
+				79C70C5E79248BBC58E2C215DE60D695 /* TGFontManager.m */,
+			);
+			name = Font;
+			path = DNColorFontKit/Classes/Font;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA34A1839D588E7F7C13BA24ED0CF39 /* DNColor */ = {
+			isa = PBXGroup;
+			children = (
+				F237CD9D31AD5C055A50B99B39EC3729 /* DNColorManager.h */,
+				30E966BBBDB5C5097FC9FC87708E1F6F /* DNColorManager.m */,
+			);
+			name = DNColor;
+			path = DNColorFontKit/Classes/DNColor;
+			sourceTree = "<group>";
+		};
+		D270244B33BDE4315725CA8613696F18 /* TGBusColor */ = {
+			isa = PBXGroup;
+			children = (
+				FCF5D687644619FE5F6D4BE5BD90D67C /* TGColorManager.h */,
+				6E402376560EB2A8C6545CCB21A370D7 /* TGColorManager.m */,
+			);
+			name = TGBusColor;
+			path = DNColorFontKit/Classes/TGBusColor;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D58B3FCE9E5F66390796BF2700BA5EB9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5FB48765BE93D5CB766284F9102337AC /* DNColorFontKit.podspec */,
+				8602F67E5537836CB9418C417BB8749C /* LICENSE */,
+				923DE6BB1364E53A584870E141D77C22 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F69E6ECFE26B1FB7D1CBD4FEAB164B71 /* Pods-DNColorFontKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0D228DBF706CD0DE7B1868BB400F23 /* Info.plist */,
+				03F8271E8E48E3379F3BA7BA74229A7E /* Pods-DNColorFontKit_Tests.modulemap */,
+				93559BDFCD612AB37AFC3DBC2BFFE0E2 /* Pods-DNColorFontKit_Tests-acknowledgements.markdown */,
+				F4D8F3426685771D40EB8E95CC58D2C7 /* Pods-DNColorFontKit_Tests-acknowledgements.plist */,
+				983249A96A11A982B7484980D330931F /* Pods-DNColorFontKit_Tests-dummy.m */,
+				B5059B4D2D8941A0159B4694BB4B25EB /* Pods-DNColorFontKit_Tests-frameworks.sh */,
+				B21FA0AA455562F4C6941D17EBAD821A /* Pods-DNColorFontKit_Tests-resources.sh */,
+				D36079D560CBAFED2F8436F1BB9E3D39 /* Pods-DNColorFontKit_Tests-umbrella.h */,
+				DC1E08F6E17B9EFCE963F1DF293F29DC /* Pods-DNColorFontKit_Tests.debug.xcconfig */,
+				31F8697DC3EA8AA032001F6AA4C716BC /* Pods-DNColorFontKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-DNColorFontKit_Tests";
+			path = "Target Support Files/Pods-DNColorFontKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00A157E2996351938F44AFABFC82F43F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B5708C918358BCCB9493D740DDD8D4 /* DNColorFontKit-umbrella.h in Headers */,
+				3CAEB8DF178D91E4803E94CADA953380 /* DNColorManager.h in Headers */,
+				820D6FBA0DB6AE1A5CBC07E29AFB3218 /* TGColorManager.h in Headers */,
+				B762DBE60CB333DDECC57EA5BDBDB64B /* TGFontManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164A13959B65020A1BFCE17C5059C38A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2E3F22288F20CE052F21A51C23542C /* Pods-DNColorFontKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2716B0083ACA313DDACB39B07D00DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0904E594708FF212DDC8213538407840 /* Pods-DNColorFontKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04EDD62F7690FAE84CDFB7E2A69B1AED /* DNColorFontKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9046C11D171741AC998305AA87049A73 /* Build configuration list for PBXNativeTarget "DNColorFontKit" */;
+			buildPhases = (
+				57F607A1FFFEFF7FA8E73FCA6BAC5CBE /* Sources */,
+				519AAF43A5FDCD1CDF4D6079519DB737 /* Frameworks */,
+				00A157E2996351938F44AFABFC82F43F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNColorFontKit;
+			productName = DNColorFontKit;
+			productReference = 4F3CC6B12ED7F394FE0EF8756D58B47F /* DNColorFontKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		055D064B5FA8F2A08B1DE910DE21A0B1 /* Pods-DNColorFontKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BAF1F8F4C6A418D3DBDC711519BC94 /* Build configuration list for PBXNativeTarget "Pods-DNColorFontKit_Tests" */;
+			buildPhases = (
+				1C1ED78DDFCDAF678D4C466CACB21F05 /* Sources */,
+				F5B10BC3E1E4E9912906568B05379266 /* Frameworks */,
+				164A13959B65020A1BFCE17C5059C38A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DNColorFontKit_Tests";
+			productName = "Pods-DNColorFontKit_Tests";
+			productReference = 58FB932A27A1E368E0929F201D971BC6 /* Pods_DNColorFontKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC4C784FB87F47086D6D1820C1AB6A85 /* Pods-DNColorFontKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ED93B0530665B479D13155140F23D46 /* Build configuration list for PBXNativeTarget "Pods-DNColorFontKit_Example" */;
+			buildPhases = (
+				317CE9BB621B19E74E3DC50394E7C95E /* Sources */,
+				D750EB2B2D2D9204576BA56416221C40 /* Frameworks */,
+				6E2716B0083ACA313DDACB39B07D00DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				674CFB0652E1E14CADC60CE5B98E0D52 /* PBXTargetDependency */,
+			);
+			name = "Pods-DNColorFontKit_Example";
+			productName = "Pods-DNColorFontKit_Example";
+			productReference = 9D50BA119A907D0B08D7B31EEDD2A046 /* Pods_DNColorFontKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6A5FEB53921C08376DE06D26577285AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EDD62F7690FAE84CDFB7E2A69B1AED /* DNColorFontKit */,
+				DC4C784FB87F47086D6D1820C1AB6A85 /* Pods-DNColorFontKit_Example */,
+				055D064B5FA8F2A08B1DE910DE21A0B1 /* Pods-DNColorFontKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1ED78DDFCDAF678D4C466CACB21F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477C5E83C846C2564F7963B31343CEA5 /* Pods-DNColorFontKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317CE9BB621B19E74E3DC50394E7C95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E8EC2E71300DB73B736BA0BC6B85C2 /* Pods-DNColorFontKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F607A1FFFEFF7FA8E73FCA6BAC5CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F42C2A03D257ED8744345A828C3F70 /* DNColorFontKit-dummy.m in Sources */,
+				C9F2C7C6C86CBC3C9E1784B659FD75AD /* DNColorManager.m in Sources */,
+				0B81B86E5A4F8D81C664906280C24BBE /* TGColorManager.m in Sources */,
+				AE33364EA75D18490F7D28A4A037958F /* TGFontManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		674CFB0652E1E14CADC60CE5B98E0D52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNColorFontKit;
+			target = 04EDD62F7690FAE84CDFB7E2A69B1AED /* DNColorFontKit */;
+			targetProxy = 3B4DD4872055F96ACCA79B13999ACBBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C8067D5E7DAF6F21AC5A01A4B59B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1478F4EC9AC594A71B31CF532D1BFE25 /* DNColorFontKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNColorFontKit/DNColorFontKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNColorFontKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DNColorFontKit/DNColorFontKit.modulemap";
+				PRODUCT_NAME = DNColorFontKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B526C97844B0C05B0CB5A78CB6FB575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F8697DC3EA8AA032001F6AA4C716BC /* Pods-DNColorFontKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNColorFontKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNColorFontKit_Tests/Pods-DNColorFontKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DNColorFontKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		452DB243310E5B4B07C1232974661745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECA8EAC8A50223DE7F2367A1B9335F /* Pods-DNColorFontKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNColorFontKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNColorFontKit_Example/Pods-DNColorFontKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DNColorFontKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63E0331D79FE033AA207598F87910B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFCA231A0A891BA2D53E2DEB3F49746 /* Pods-DNColorFontKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNColorFontKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNColorFontKit_Example/Pods-DNColorFontKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DNColorFontKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		923829A38E1DC4E7E4DF4DD83A483E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1478F4EC9AC594A71B31CF532D1BFE25 /* DNColorFontKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DNColorFontKit/DNColorFontKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DNColorFontKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DNColorFontKit/DNColorFontKit.modulemap";
+				PRODUCT_NAME = DNColorFontKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5A7CF73D0774020162F4C42EF6F0223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1E08F6E17B9EFCE963F1DF293F29DC /* Pods-DNColorFontKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DNColorFontKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DNColorFontKit_Tests/Pods-DNColorFontKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DNColorFontKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ED93B0530665B479D13155140F23D46 /* Build configuration list for PBXNativeTarget "Pods-DNColorFontKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E0331D79FE033AA207598F87910B41 /* Debug */,
+				452DB243310E5B4B07C1232974661745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BAF1F8F4C6A418D3DBDC711519BC94 /* Build configuration list for PBXNativeTarget "Pods-DNColorFontKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A7CF73D0774020162F4C42EF6F0223 /* Debug */,
+				1B526C97844B0C05B0CB5A78CB6FB575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9046C11D171741AC998305AA87049A73 /* Build configuration list for PBXNativeTarget "DNColorFontKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923829A38E1DC4E7E4DF4DD83A483E7A /* Debug */,
+				09C8067D5E7DAF6F21AC5A01A4B59B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

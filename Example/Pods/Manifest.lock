@@ -1,0 +1,16 @@
+PODS:
+  - DNColorFontKit (0.1.0)
+
+DEPENDENCIES:
+  - DNColorFontKit (from `../`)
+
+EXTERNAL SOURCES:
+  DNColorFontKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DNColorFontKit: 1633310d232c3355b48b79d5a0c24f905037a420
+
+PODFILE CHECKSUM: b40b6368effc56e97dfe324d897bb5debde52fb9
+
+COCOAPODS: 1.4.0

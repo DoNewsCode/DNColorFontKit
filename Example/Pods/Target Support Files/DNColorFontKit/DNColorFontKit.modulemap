@@ -1,0 +1,6 @@
+framework module DNColorFontKit {
+  umbrella header "DNColorFontKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

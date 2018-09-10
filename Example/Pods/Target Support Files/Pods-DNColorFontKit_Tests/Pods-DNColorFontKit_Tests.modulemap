@@ -1,0 +1,6 @@
+framework module Pods_DNColorFontKit_Tests {
+  umbrella header "Pods-DNColorFontKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
